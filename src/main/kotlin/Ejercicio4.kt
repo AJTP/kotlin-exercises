@@ -6,6 +6,7 @@
 
 fun main(args: Array<String>) {
     Ejercicio4()
+
 }
 
 fun Ejercicio4() {
