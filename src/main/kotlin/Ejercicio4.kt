@@ -9,5 +9,23 @@ fun main(args: Array<String>) {
 }
 
 fun Ejercicio4() {
+    (1..100).forEach{num ->
+        if(EsPrimo(num)){
+            println(num)
+        }
+    }
+}
 
+fun EsPrimo(numero:Int):Boolean{
+    if(numero < 2){
+        return true
+    }
+
+    for (i in 2 until numero) {
+        if (numero % i == 0) {
+            return false
+        }
+    }
+
+    return true
 }
