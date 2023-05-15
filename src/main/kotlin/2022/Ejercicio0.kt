@@ -1,3 +1,4 @@
+package `2022`
 /*
  * 	-- Ejercicio1: Fizz Buzz --
  * 	Esta función imprime los números del 1 al 50
@@ -7,11 +8,11 @@
  */
 
 fun main(args: Array<String>) {
-    Ejercicio1()
+    Ejercicio0()
 }
 
 
-fun Ejercicio1(){
+fun Ejercicio0(){
     for(i in 1 .. 100){
         val multiploDeCinco = i % 5 == 0
         val multiploDeTres = i % 3 == 0

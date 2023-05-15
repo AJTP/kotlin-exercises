@@ -1,3 +1,4 @@
+package `2022`
 /*
  *	-- Ejercicio4: ¿Es un número primo? --
  *	Esta función comprueba si un número es primo o no
@@ -5,11 +6,10 @@
  */
 
 fun main(args: Array<String>) {
-    Ejercicio4()
-
+    Ejercicio3()
 }
 
-fun Ejercicio4() {
+fun Ejercicio3() {
     (1..100).forEach{num ->
         if(EsPrimo(num)){
             println(num)

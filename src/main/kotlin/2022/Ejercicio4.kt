@@ -1,15 +1,16 @@
+package `2022`
 /*
  * 	-- Ejercicio5: Area de un polígono --
  * 	Esta función permite calcular el área de un Triángulo, Cuadrado o Rectángulo
  */
 
 fun main(args: Array<String>) {
-    Ejercicio5(Triangulo(2.0,3.0))
-    Ejercicio5(Cuadrado(2.0))
-    Ejercicio5(Rectangulo(2.0,3.0))
+    Ejercicio4(Triangulo(2.0,3.0))
+    Ejercicio4(Cuadrado(2.0))
+    Ejercicio4(Rectangulo(2.0,3.0))
 }
 
-fun Ejercicio5(poligono: Poligono):Double {
+fun Ejercicio4(poligono: Poligono):Double {
     poligono.PrintArea()
     return poligono.Area()
 }
@@ -18,7 +19,7 @@ interface Poligono{
     fun Area():Double
     fun PrintArea()
 }
-data class Triangulo(val base:Double,val altura:Double):Poligono{
+data class Triangulo(val base:Double,val altura:Double): Poligono {
     override fun Area():Double{
         return base * altura / 2
     }
@@ -28,7 +29,7 @@ data class Triangulo(val base:Double,val altura:Double):Poligono{
     }
 }
 
-data class Cuadrado(val lado:Double):Poligono{
+data class Cuadrado(val lado:Double): Poligono {
     override fun Area():Double {
         return lado * lado
     }
@@ -39,7 +40,7 @@ data class Cuadrado(val lado:Double):Poligono{
 
 }
 
-data class Rectangulo(val base:Double,val altura:Double):Poligono{
+data class Rectangulo(val base:Double,val altura:Double): Poligono {
     override fun Area():Double {
         return base * altura
     }

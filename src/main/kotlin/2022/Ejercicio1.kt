@@ -1,3 +1,4 @@
+package `2022`
 /*
  * 	-- Ejercicio2: ¿Es un anagrama? --
  * 	Esta función recibe dos cadenas de caracteres
@@ -6,13 +7,13 @@
  */
 
 fun main(args: Array<String>) {
-    println(Ejercicio2("Zara","Raza"))
-    println(Ejercicio2("Arroz","Arroz"))
-    println(Ejercicio2("Pepe","Pepi"))
+    println(Ejercicio1("Zara","Raza"))
+    println(Ejercicio1("Arroz","Arroz"))
+    println(Ejercicio1("Pepe","Pepi"))
 }
 
 
-fun Ejercicio2(cadena1:String,cadena2:String):Boolean{
+fun Ejercicio1(cadena1:String,cadena2:String):Boolean{
     if(cadena1.lowercase() == cadena2.lowercase()){
         return false
     }

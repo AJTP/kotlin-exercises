@@ -1,14 +1,15 @@
+package `2022`
 /*
- * 	-- Ejercicio 3: La sucesión de Fibonacci --
+ * 	-- Ejercicio3: La sucesión de Fibonacci --
  * 	Esta función imprime los 50 primeros números
  * 	de la sucesión de Fibonacci
  */
 
 fun main(args: Array<String>) {
-    Ejercicio3()
+    Ejercicio2()
 }
 
-fun Ejercicio3(){
+fun Ejercicio2(){
     var a:Long = 0
     var b:Long = 1
 
