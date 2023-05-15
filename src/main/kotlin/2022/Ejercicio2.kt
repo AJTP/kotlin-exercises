@@ -5,7 +5,7 @@ package `2022`
  * 	de la sucesión de Fibonacci
  */
 
-fun main(args: Array<String>) {
+fun main() {
     Ejercicio2()
 }
 

@@ -5,7 +5,7 @@ package `2022`
  *	También imprime los números del 1 al 100
  */
 
-fun main(args: Array<String>) {
+fun main() {
     Ejercicio3()
 }
 

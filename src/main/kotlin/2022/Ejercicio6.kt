@@ -11,7 +11,7 @@ fun main(){
 }
 
 fun Ejercicio6(cadena:String):String{
-    var array = cadena.toCharArray()
+    val array = cadena.toCharArray()
     var vuelta = ""
     for(i in array.size - 1 downTo 0){
         vuelta+=array[i]

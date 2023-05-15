@@ -4,7 +4,7 @@ package `2022`
  * 	Esta función permite calcular el área de un Triángulo, Cuadrado o Rectángulo
  */
 
-fun main(args: Array<String>) {
+fun main() {
     Ejercicio4(Triangulo(2.0,3.0))
     Ejercicio4(Cuadrado(2.0))
     Ejercicio4(Rectangulo(2.0,3.0))

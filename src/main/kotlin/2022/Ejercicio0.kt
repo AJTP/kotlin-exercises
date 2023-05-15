@@ -7,7 +7,7 @@ package `2022`
  * 	Si el número es múltiplo de 3 y 5 lo sustituye por "FizzBuzz"
  */
 
-fun main(args: Array<String>) {
+fun main() {
     Ejercicio0()
 }
 

@@ -17,7 +17,7 @@ fun Ejercicio7(texto: String) {
         .lowercase()
         .split(" ")
 
-    var map = palabras.associate { it to 0 }.toMutableMap()
+    val map = palabras.associateWith { 0 }.toMutableMap()
     palabras.forEach { palabra ->
         map[palabra] = map.get(palabra)?.plus(1) ?: 1
     }

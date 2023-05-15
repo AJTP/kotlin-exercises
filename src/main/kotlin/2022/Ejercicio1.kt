@@ -6,7 +6,7 @@ package `2022`
  * 	true o false si una cadena es anagrama de la otra
  */
 
-fun main(args: Array<String>) {
+fun main() {
     println(Ejercicio1("Zara","Raza"))
     println(Ejercicio1("Arroz","Arroz"))
     println(Ejercicio1("Pepe","Pepi"))
@@ -23,9 +23,5 @@ fun Ejercicio1(cadena1:String,cadena2:String):Boolean{
     val array2 = cadena2.lowercase().toCharArray()
         .sortedArray()
 
-    if(array1.contentEquals(array2)){
-        return true
-    }else{
-        return false
-    }
+    return array1.contentEquals(array2)
 }
